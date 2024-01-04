@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-container{
+    background-color: aqua;
+    width: 200px; height: 200px;
+    border:solid 20px;
+}
+
+.top-middle {
+    width: 200px; height: 200px;
+    background-color: blue;
+    border:solid 30px;
+    margin-left: 240px;
+}
+.bottom-container {
+    width: 200px; height: 200px;
+    background-color: red;
+    border:solid yellow 10px;
+    margin-left: 380px;
+}
