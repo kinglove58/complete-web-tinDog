@@ -3,20 +3,20 @@
     box-sizing: border-box;
 }
 .top-container{
-    background-color: aqua;
-    width: 200px; height: 200px;
-    border:solid 20px;
+    background-color: red;
+    width: 100px; height: 100px;
+    position: absolute;
+    top: 200px; left: 200px;
 }
 
 .top-middle {
-    width: 200px; height: 200px;
+    width: 100px; height: 100px;
     background-color: blue;
-    border:solid 30px;
-    margin-left: 240px;
+    position: absolute;
+    top: 100px; left: 100px;
 }
+
 .bottom-container {
-    width: 200px; height: 200px;
-    background-color: red;
-    border:solid yellow 10px;
-    margin-left: 380px;
+    width: 100px; height: 100px;
+    background-color: yellow;
 }
