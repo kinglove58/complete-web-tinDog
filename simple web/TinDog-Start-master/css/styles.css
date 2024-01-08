@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #EC6865;
+    color: white;
+}
+
+.navbar {
+    padding: 0 0 0 30px;
+}
+
+
+.navbar .navbar-brand {
+    font-family: "ubuntu";
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white ;
+}
+
+.navbar .nav-item {
+    padding: 0px 18px;
+    
+}
+.navbar .nav-item .nav-link {
+    color: wheat;
+    font-family: "Monserrat-light";
+    font-size: 1.2rem;
+}
+
+ /* section styling */
+.container h1{
+    font-family:'Montserrat Black', sans-serif;;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 1% 10% 1% 10%;
+    margin-bottom: 50px;
+}
+
+/* hero styling */
+.container1 {
+    padding-left: 12%;
+}
+.col-lg-6.col-md-12 h1 {
+    color: white;
+}
+
+.phoneimage {
+    transform: rotate(10deg);
+    width: 60%;
+}
+
+.button-download {
+  margin: 3% 5% 2% 0%;  
+}
+
+/* feature section */
+
+#features{
+    padding: 5%;
+}
+
+.row .adjcol{
+   text-align: center;
+}
+.row .adjcol h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.row .adjcol p{
+    color: #8f8f8f;
+/*    text-align: center; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+.adjcol .icon1{
+    color: #ef8172;
+    font-size: 2rem;
+}
+
+.adjcol .icon1:hover{
+    color: #ff4c68;
+}
+
+/* Testimonia section */
+
+#testimonials {
+    background-color:#ef8172;
+    color: white;
+}
+
+.testiminials-container .testimonial-section {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Montserrat-bold", sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+    /* width: 50%; */
+}
+
+.image-container {
+    align-items: center;
+}
+.testimonial-section .testimonial-image {
+    align-items: center;
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
