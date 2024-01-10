@@ -45,8 +45,7 @@ body {
 }
 
 .container-fluid {
-  padding: 1% 10% 1% 10%;
-  margin-bottom: 50px;
+  padding: 2% 10% 7%;
 }
 
 /* hero styling */
@@ -58,8 +57,9 @@ body {
 }
 
 .phoneimage {
-  transform: rotate(10deg);
-  width: 60%;
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
 }
 
 .button-download {
@@ -69,7 +69,11 @@ body {
 /* feature section */
 
 #features {
-  padding: 9%;
+  background-color: white;
+  /* z-index: 1; */
+ /*  bottom: 100px; */
+  padding: 7% 10%;
+  position: relative;
 }
 
 .row .adjcol {
@@ -79,7 +83,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
-  margin-bottom: 0;
+ /*  margin-bottom: 0; */
 }
 
 .row .adjcol p {
@@ -134,6 +138,12 @@ em {
   background-color: transparent;
 }
 
+.carousel-item {
+  transition: -webkit-transform 0.05s ease;
+  transition: transform 0.05s ease;
+  transition: transform 0.05s ease, -webkit-transform 0.7s ease;
+}
+
 /* press section */
 
 #press {
@@ -146,4 +156,23 @@ em {
   width: 15%;
   margin: 20px 20px 20px;
   /* align-items: center; */
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.card-body h2 {
+  color: black;
+}
+
+.card-header > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.pricing-head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
 }
